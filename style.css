@@ -1,0 +1,193 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    background-image:url( "ASSTE/BG.jpg" );
+    position: relative
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    height: 700px;
+}
+.box{
+    height: 56vw;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+}
+nav img{
+    width: 130px;
+    position: relative;
+    z-index: 10;
+    color: red;
+
+}
+nav{
+    /* background-color: blue; */
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 155px;
+    height: 62px;
+    margin: auto;
+    align-items: center;
+    /* max-width: 60vw */
+    /* position: relative;
+    z-index: 10;*/
+}
+.boxes{
+  height: calc(100%-62px);
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 100px 30px;
+  font-family:'poppins',sans-serif ;
+
+}
+.boxes> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+.boxes> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.boxes> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+}
+.sepration{
+    height: 11px;
+    background-color: rgb(80, 80, 80);
+}
+.his{
+    padding: 4px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 17px;
+    position: relative;
+
+}
+.popcon{
+    padding: 13px 21px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    position: relative;
+    font-weight: 400;
+}
+.lol input{
+    padding: 12px 60px;
+    background-color: rgba(248,243,243,0.021);
+    color: white;
+    position: relative;
+}
+.hhas{
+    padding: 5px 20px;
+    background-color: rgba(248,243,243,0.021);
+    color: white;
+    position: relative;
+    border-radius: 5px;
+}
+.hhas img{
+    height: 16px;
+    color: white;
+    width: 26px;
+
+}
+.first{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "poppins",sans-serif;
+    padding: 25px 12px 11px 89px;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+.imgsss video{
+    position: relative;
+    width: 366px;
+    right: 235px;
+    top: -7px;
+
+
+}
+.imgsss img{
+    width: 500px;
+    position: relative;
+    right: -237px;
+    padding: 0px 36px 0px 0px;
+}
+.ooop{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+.ttt{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.imgsss{
+    display: flex;
+    justify-content: center;
+}
+.boxess{
+        /* top: -125px; */
+    /* bottom: 1px; */
+    height: 92px;
+    width: 295px;
+    background-color: red;
+    display: flow;
+    right: 952px;
+    border: 2px white;
+    /* padding: 2px 2px 12px 6px; */
+    margin: 400px 0 0 0;
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+
+}
+.boxess img {
+    width: 57px;
+    height: 80px;
+    padding: 5px 0px 0px 8px;
+
+}
+.xxx{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.uk video{
+    position: relative;
+    bottom: 250px;
+    right: -114px;
+    width: 393px;
+
+}
+.uk img{
+    position: relative;
+    top: 190px
+}
